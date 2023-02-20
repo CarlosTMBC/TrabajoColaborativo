@@ -27,15 +27,15 @@ public class frmPrincipal extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        btnIngresoEquipo = new javax.swing.JButton();
+        btnEquipo = new javax.swing.JButton();
         btnRegistroPropietario = new javax.swing.JButton();
         btnEnviarReparacion = new javax.swing.JButton();
         btnEntregarEquipo = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        btnIngresoEquipo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Computer2_icon-icons.com_55524 (1).png"))); // NOI18N
-        btnIngresoEquipo.setText("INGRESO DE EQUIPO");
+        btnEquipo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Computer2_icon-icons.com_55524 (1).png"))); // NOI18N
+        btnEquipo.setText("INGRESO DE EQUIPO");
 
         btnRegistroPropietario.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/register_login_signup_icon_219991.png"))); // NOI18N
         btnRegistroPropietario.setText("REGISTROS DE PROPIETARIOS");
@@ -59,7 +59,7 @@ public class frmPrincipal extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addGap(130, 130, 130)
-                        .addComponent(btnIngresoEquipo))
+                        .addComponent(btnEquipo))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(123, 123, 123)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -74,7 +74,7 @@ public class frmPrincipal extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(btnIngresoEquipo)
+                .addComponent(btnEquipo)
                 .addGap(18, 18, 18)
                 .addComponent(btnRegistroPropietario)
                 .addGap(28, 28, 28)
@@ -130,7 +130,7 @@ public class frmPrincipal extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     public javax.swing.JButton btnEntregarEquipo;
     public javax.swing.JButton btnEnviarReparacion;
-    public javax.swing.JButton btnIngresoEquipo;
+    public javax.swing.JButton btnEquipo;
     public javax.swing.JButton btnRegistroPropietario;
     // End of variables declaration//GEN-END:variables
 }

@@ -20,8 +20,9 @@ public class EquipoRModel {
         this.ListaEquipoR.add(nuevoEquipo);
     }
     
-    public ArrayList ListaUsuarios()
+    public ArrayList ListaEquipos()
     {
         return ListaEquipoR;
+        
     }
 }
