@@ -28,6 +28,8 @@ public class EntregaController implements ActionListener{
         this.VistaEntrega = VistaEntrega;
         this.ModeloEntrega = ModeloEntrega;
         
+        this.VistaPrincipal.btnEntregarEquipo.addActionListener(this);
+        
         this.TablaEntrega.addColumn("CODIGO");
         this.TablaEntrega.addColumn("PERSONA");
         this.TablaEntrega.addColumn("FECHA");
