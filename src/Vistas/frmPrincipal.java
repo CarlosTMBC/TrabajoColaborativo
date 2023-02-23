@@ -34,10 +34,8 @@ public class frmPrincipal extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        btnEquipo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Computer2_icon-icons.com_55524 (1).png"))); // NOI18N
         btnEquipo.setText("INGRESO DE EQUIPO");
 
-        btnRegistroPropietario.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/register_login_signup_icon_219991.png"))); // NOI18N
         btnRegistroPropietario.setText("REGISTROS DE PROPIETARIOS");
         btnRegistroPropietario.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -45,10 +43,8 @@ public class frmPrincipal extends javax.swing.JFrame {
             }
         });
 
-        btnEnviarReparacion.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/4014703-driver-mobile-phone-repair-screw-service-wrench_112878.png"))); // NOI18N
         btnEnviarReparacion.setText("ENVIAR A REPARACION");
 
-        btnEntregarEquipo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/deliver_food_hospital_icon_145861 (1).png"))); // NOI18N
         btnEntregarEquipo.setText("ENTREGAR EQUIPO");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -68,7 +64,7 @@ public class frmPrincipal extends javax.swing.JFrame {
                     .addGroup(layout.createSequentialGroup()
                         .addGap(106, 106, 106)
                         .addComponent(btnRegistroPropietario)))
-                .addContainerGap(142, Short.MAX_VALUE))
+                .addContainerGap(218, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -81,7 +77,7 @@ public class frmPrincipal extends javax.swing.JFrame {
                 .addComponent(btnEnviarReparacion)
                 .addGap(18, 18, 18)
                 .addComponent(btnEntregarEquipo)
-                .addContainerGap(76, Short.MAX_VALUE))
+                .addContainerGap(324, Short.MAX_VALUE))
         );
 
         pack();
