@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package Controlador;
 
 import Modelo.RegistroReparacionModell;
@@ -28,6 +25,7 @@ public class RegistroReparacionController implements ActionListener{
         this.VistaPrincipal = VistaPrincipal;
         this.VistaRegistroReparacion= VistaRegistroReparacion;
         this.ModeloRegistroRep = ModeloRegistroRep;
+        
         this.VistaPrincipal.btnEnviarReparacion.addActionListener(this);
         
         
@@ -44,7 +42,7 @@ public class RegistroReparacionController implements ActionListener{
         
     @Override
     public void actionPerformed(ActionEvent e) {
-        if(e.getSource()==this.VistaPrincipal.btnEquipo)
+        if(e.getSource()==this.VistaPrincipal.btnEnviarReparacion)
         {
             this.VistaRegistroReparacion.btnRegistroRep.addActionListener(this);
             
