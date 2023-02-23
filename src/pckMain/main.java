@@ -4,13 +4,16 @@ package pckMain;
 import Controlador.EntregaController;
 import Controlador.PropietarioController;
 import Controlador.EquipoRepController;
+import Controlador.RegistroReparacionController;
 import Modelo.EntregaModel;
 import Modelo.EquipoRModel;
 import Modelo.PropietarioModel;
+import Modelo.RegistroReparacionModell;
 import Vistas.frmEntregarEquipo;
 import Vistas.frmEquipo;
 import Vistas.frmPrincipal;
 import Vistas.frmPropietarios;
+import Vistas.frmRegReparacion;
 
 
 
@@ -38,6 +41,12 @@ public class main {
         EntregaModel ModeloEntrega = new EntregaModel();
         
         EntregaController Entrega = new EntregaController(VistaPrincipal,VistaEntrega,ModeloEntrega);
+         
+        //Javier
+        frmRegReparacion VistaRegReparacion = new frmRegReparacion();
+        RegistroReparacionModell ModeloRegReparacion = new RegistroReparacionModell();
+        
+        RegistroReparacionController RegistroRep = new RegistroReparacionController(VistaPrincipal,VistaRegReparacion,ModeloRegReparacion);
         
     }
 }
