@@ -55,28 +55,19 @@ public class EquipoRepController implements ActionListener {
                     this.VistaEquiposR.txtProblema.getText());
             
             
-            this.TablaEquiposR.addRow(new Object[]{this.ModeloEquiposR.ListaEquipoR.get(0).getMarca(),
+            this.TablaEquiposR.addRow(new Object[]{this.ModeloEquiposR.ListaEquipoR.get(0),
             this.ModeloEquiposR.ListaEquipoR.get(0).getModelo(),
             this.ModeloEquiposR.ListaEquipoR.get(0).getTipoPc(),
             this.ModeloEquiposR.ListaEquipoR.get(0).getProblema()});
                 
+            
+            this.ModeloEquiposR.AgregarUsuarios(this.VistaEquiposR.txtMarca.getText(),
+                    this.VistaEquiposR.txtModelo.getText(), this.VistaEquiposR.txtTComputadoras.getText(),
+                    this.VistaEquiposR.txtProblema.getText());
             this.VistaEquiposR.txtMarca.setText("");
             this.VistaEquiposR.txtModelo.setText("");
             this.VistaEquiposR.txtTComputadoras.setText("");
             this.VistaEquiposR.txtProblema.setText("");
-            this.ModeloEquiposR.AgregarUsuarios(this.VistaEquiposR.txtMarca.getText(),
-                    this.VistaEquiposR.txtModelo.getText(), this.VistaEquiposR.txtTComputadoras.getText(),
-                    this.VistaEquiposR.txtProblema.getText());
-           
         }
-
-    }
- 
-
-
-    
-    
-    
-    
-    
+    }  
 }
