@@ -34,6 +34,7 @@ public class frmPrincipal extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        btnEquipo.setIcon(new javax.swing.ImageIcon("C:\\Users\\carlt\\Downloads\\empleados.png")); // NOI18N
         btnEquipo.setText("INGRESO DE EQUIPO");
 
         btnRegistroPropietario.setText("REGISTROS DE PROPIETARIOS");
@@ -51,33 +52,34 @@ public class frmPrincipal extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap(131, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(130, 130, 130)
-                        .addComponent(btnEquipo))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(123, 123, 123)
+                        .addGap(17, 17, 17)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(btnEntregarEquipo)
-                            .addComponent(btnEnviarReparacion)))
+                            .addComponent(btnEnviarReparacion)
+                            .addGroup(layout.createSequentialGroup()
+                                .addGap(10, 10, 10)
+                                .addComponent(btnEntregarEquipo))))
+                    .addComponent(btnRegistroPropietario)
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(106, 106, 106)
-                        .addComponent(btnRegistroPropietario)))
-                .addContainerGap(218, Short.MAX_VALUE))
+                        .addGap(23, 23, 23)
+                        .addComponent(btnEquipo)))
+                .addGap(150, 150, 150))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
+                .addGap(49, 49, 49)
                 .addComponent(btnEquipo)
-                .addGap(18, 18, 18)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(btnRegistroPropietario)
                 .addGap(28, 28, 28)
                 .addComponent(btnEnviarReparacion)
                 .addGap(18, 18, 18)
                 .addComponent(btnEntregarEquipo)
-                .addContainerGap(324, Short.MAX_VALUE))
+                .addContainerGap(163, Short.MAX_VALUE))
         );
 
         pack();
