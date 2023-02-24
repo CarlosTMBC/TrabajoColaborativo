@@ -60,8 +60,7 @@ public class RegistroReparacionController implements ActionListener{
                     this.VistaRegistroReparacion.txtfecha.getText());
             
             
-            this.TablaRegistroRep.addRow(new Object[]{this.ModeloRegistroRep.RegisReparacion.get(0),
-            this.ModeloRegistroRep.RegisReparacion.get(0).getCodigoE(),
+            this.TablaRegistroRep.addRow(new Object[]{this.ModeloRegistroRep.RegisReparacion.get(0).getCodigoE(),
             this.ModeloRegistroRep.RegisReparacion.get(0).getDescriRep(),
               this.ModeloRegistroRep.RegisReparacion.get(0).getTecnico(),
                 this.ModeloRegistroRep.RegisReparacion.get(0).getFecha()});
