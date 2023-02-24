@@ -24,7 +24,7 @@
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="1" attributes="0">
-              <EmptySpace pref="63" max="32767" attributes="0"/>
+              <EmptySpace pref="131" max="32767" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
@@ -65,9 +65,6 @@
   <SubComponents>
     <Component class="javax.swing.JButton" name="btnEquipo">
       <Properties>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/imagenes/ordenador.png"/>
-        </Property>
         <Property name="text" type="java.lang.String" value="INGRESO DE EQUIPO"/>
       </Properties>
       <AuxValues>
@@ -76,9 +73,6 @@
     </Component>
     <Component class="javax.swing.JButton" name="btnRegistroPropietario">
       <Properties>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/imagenes/grupo.png"/>
-        </Property>
         <Property name="text" type="java.lang.String" value="REGISTROS DE PROPIETARIOS"/>
       </Properties>
       <Events>
@@ -90,9 +84,6 @@
     </Component>
     <Component class="javax.swing.JButton" name="btnEnviarReparacion">
       <Properties>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/imagenes/herramientas-para-reparar.png"/>
-        </Property>
         <Property name="text" type="java.lang.String" value="ENVIAR A REPARACION"/>
       </Properties>
       <AuxValues>
@@ -101,9 +92,6 @@
     </Component>
     <Component class="javax.swing.JButton" name="btnEntregarEquipo">
       <Properties>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/imagenes/entrega-de-paquetes.png"/>
-        </Property>
         <Property name="text" type="java.lang.String" value="ENTREGAR EQUIPO"/>
       </Properties>
       <AuxValues>

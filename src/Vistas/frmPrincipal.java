@@ -34,10 +34,8 @@ public class frmPrincipal extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        btnEquipo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/ordenador.png"))); // NOI18N
         btnEquipo.setText("INGRESO DE EQUIPO");
 
-        btnRegistroPropietario.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/grupo.png"))); // NOI18N
         btnRegistroPropietario.setText("REGISTROS DE PROPIETARIOS");
         btnRegistroPropietario.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -45,10 +43,8 @@ public class frmPrincipal extends javax.swing.JFrame {
             }
         });
 
-        btnEnviarReparacion.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/herramientas-para-reparar.png"))); // NOI18N
         btnEnviarReparacion.setText("ENVIAR A REPARACION");
 
-        btnEntregarEquipo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/entrega-de-paquetes.png"))); // NOI18N
         btnEntregarEquipo.setText("ENTREGAR EQUIPO");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -56,7 +52,7 @@ public class frmPrincipal extends javax.swing.JFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(63, Short.MAX_VALUE)
+                .addContainerGap(131, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addGap(17, 17, 17)
